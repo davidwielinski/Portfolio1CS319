@@ -92,14 +92,14 @@ public class JigsawPuzzle implements ActionListener
 		numbuttons.add(three);
 		numbuttons.add(four);
 		//The Images in there
-		String lionpath = "C:\\CodingSutff\\EclipseWorks\\Portfolio1\\src\\lion.jpg";
+		String lionpath = "lion.jpg";
 		File lionfile = new File(lionpath);
 		lionimage = ImageIO.read(lionfile);
 		lionlabel = new JLabel(new ImageIcon(lionimage));
 		lionlabel.setBounds(5, 50, 300, 168);
 		lionlabel.setVisible(true);
 		f.add(lionlabel);
-		String kenpath = "C:\\CodingSutff\\EclipseWorks\\Portfolio1\\src\\kennedy.jpg";
+		String kenpath = "kennedy.jpg";
 		File kenfile = new File(kenpath);
 		kenimage = ImageIO.read(kenfile);
 		kenlabel = new JLabel(new ImageIcon(kenimage));
