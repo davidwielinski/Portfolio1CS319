@@ -1,8 +1,9 @@
-package port1;
 
 public class Coordinate 
 {
 	private int x, y;
+	
+	//Basically keep track of the current location
 	public Coordinate(int x, int y)
 	{
 		this.x = x;
@@ -18,4 +19,5 @@ public class Coordinate
 	{
 		return y;
 	}
+	
 }
